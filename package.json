@@ -3,7 +3,9 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/my-library-react-ts.umd.js",
   "module": "./dist/my-library-react-ts.es.js",
   "exports": {
@@ -29,8 +31,19 @@
   "devDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
     "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "path": "^0.12.7",
+    "prettier": "^2.8.7",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
